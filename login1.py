@@ -46,8 +46,8 @@ class usuario():
             conect = "desconectado"
         return f"Mi nombre de usuario es {self.nombre} y estoy {conect}"
 
-#user1 = usuario(input("Ingrese un nombre: "),input("Ingresee su contraseña: "))
-# print(user1)
+user1 = usuario(input("Ingrese un nombre: "),input("Ingresee su contraseña: "))
+print(user1)
 #
 # user1.conectar()
 # print(user1)
